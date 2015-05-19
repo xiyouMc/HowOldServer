@@ -57,7 +57,7 @@ public class HowOldServlet extends HttpServlet {
 
 	private String getRealTime(String data) {
 		return new Passport().jiemi(data,
-				String.valueOf(new char[] { 2, 4, 8, 8, 2, 2 }));
+				String.valueOf(new char[] { 2, 4, 8, 8, 1, 1 }));
 	}
 
 	private File SaveFile(HttpServletRequest request, String path)
